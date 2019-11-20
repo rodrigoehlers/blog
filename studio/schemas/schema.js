@@ -1,8 +1,8 @@
 // First, we must import the schema creator
-import createSchema from 'part:@sanity/base/schema-creator'
+import createSchema from 'part:@sanity/base/schema-creator';
 
 // Then import schema types from any plugins that might expose them
-import schemaTypes from 'all:part:@sanity/base/schema-type'
+import schemaTypes from 'all:part:@sanity/base/schema-type';
 
 // Import user defined schema types
 import config from './config.js';
@@ -43,6 +43,6 @@ export default createSchema({
     site_menus,
     site_menu_item,
     page_menus,
-    page_menu_item
-    ])
-})
+    page_menu_item,
+  ]),
+});

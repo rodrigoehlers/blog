@@ -23,8 +23,8 @@ a {
   border-bottom: 2px solid _palette(accent);
   color: _palette(secondary);
   text-decoration: none;
-  -webkit-transition: border .3s ease, color .3s ease;
-  transition: border .3s ease, color .3s ease;
+  -webkit-transition: border 0.3s ease, color 0.3s ease;
+  transition: border 0.3s ease, color 0.3s ease;
 
   &:hover {
     border-color: currentColor;
@@ -116,7 +116,7 @@ pre {
     border-style: solid;
     border-width: 0 0 1px 1px;
     color: inherit;
-    content: "</>";
+    content: '</>';
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     padding: 1px 4px;
     position: absolute;
@@ -140,12 +140,12 @@ blockquote {
   position: relative;
 
   &:first-child {
-    margin-top: 0
+    margin-top: 0;
   }
 
   &:before {
     color: _palette(accent);
-    content: "\201C";
+    content: '\201C';
     font-size: 64px;
     left: 0;
     line-height: 1;
@@ -243,19 +243,19 @@ label {
   }
 }
 
-input[type=checkbox]+label,
-input[type=radio]+label {
+input[type='checkbox'] + label,
+input[type='radio'] + label {
   cursor: pointer;
   padding-left: 0.25em;
   padding-right: 1em;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-input[type="search"],
-input[type="url"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='tel'],
+input[type='search'],
+input[type='url'],
 select,
 textarea {
   background: #fff;
@@ -278,20 +278,20 @@ textarea {
   }
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-input[type="search"],
-input[type="url"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='tel'],
+input[type='search'],
+input[type='url'],
 select {
   height: 3em;
 }
 
 button,
-input[type="submit"],
-input[type="button"],
-input[type="reset"],
+input[type='submit'],
+input[type='button'],
+input[type='reset'],
 .button {
   background: _palette(accent);
   border: 2px solid _palette(accent);
@@ -305,8 +305,8 @@ input[type="reset"],
   line-height: 1.5;
   padding: 0.25em 25px;
   text-transform: uppercase;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 
   &:hover,
   &:focus,
@@ -398,6 +398,6 @@ img {
 
 .post-content:before,
 .post-content:after {
-  content: "";
+  content: '';
   display: table;
 }

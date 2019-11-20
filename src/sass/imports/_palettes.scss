@@ -18,9 +18,9 @@
   }
 
   button,
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
+  input[type='submit'],
+  input[type='button'],
+  input[type='reset'],
   .button {
     background: _palette(accent-blue);
     border-color: _palette(accent-blue);
@@ -65,13 +65,13 @@
   .palette-blue {
     &.layout-grid {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-blue),0.1);
+        border-color: rgba(_palette(accent-blue), 0.1);
       }
     }
 
     &.layout-list {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-blue),0.1);
+        border-color: rgba(_palette(accent-blue), 0.1);
       }
     }
   }
@@ -93,9 +93,9 @@
   }
 
   button,
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
+  input[type='submit'],
+  input[type='button'],
+  input[type='reset'],
   .button {
     background: _palette(accent-black);
     border-color: _palette(accent-black);
@@ -140,13 +140,13 @@
   .palette-black {
     &.layout-grid {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-black),0.1);
+        border-color: rgba(_palette(accent-black), 0.1);
       }
     }
 
     &.layout-list {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-black),0.1);
+        border-color: rgba(_palette(accent-black), 0.1);
       }
     }
   }
@@ -168,9 +168,9 @@
   }
 
   button,
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
+  input[type='submit'],
+  input[type='button'],
+  input[type='reset'],
   .button {
     background: _palette(accent-red);
     border-color: _palette(accent-red);
@@ -215,13 +215,13 @@
   .palette-red {
     &.layout-grid {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-red),0.1);
+        border-color: rgba(_palette(accent-red), 0.1);
       }
     }
 
     &.layout-list {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-red),0.1);
+        border-color: rgba(_palette(accent-red), 0.1);
       }
     }
   }
