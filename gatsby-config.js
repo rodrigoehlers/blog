@@ -29,6 +29,17 @@ module.exports = {
       options: {},
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-152971628-1',
+        head: true,
+        anonymize: true,
+        cookieExpires: 0,
+        cookieDomain: 'rodrigoehlers.com',
+        pageTransitionDelay: 100,
+      },
+    },
+    {
       resolve: `@stackbit/gatsby-plugin-menus`,
       options: {
         sourceUrlPath: `fields.url`,
