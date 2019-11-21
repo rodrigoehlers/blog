@@ -18,13 +18,6 @@ export default {
       validation: null,
     },
     {
-      type: 'image',
-      name: 'img_path',
-      title: 'Image',
-      description: 'The image shown below the page title and subtitle.',
-      validation: null,
-    },
-    {
       type: 'page_menus',
       name: 'menus',
       title: 'Contact Menus',
