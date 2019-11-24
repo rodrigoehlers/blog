@@ -4,10 +4,11 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build --prefix-paths",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "pull": "npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/5db837090317cd0014b27aea"
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
